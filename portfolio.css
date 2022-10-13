@@ -1,0 +1,222 @@
+/* Medium devices (landscape tablets, 300px and up) */
+@media only screen and (min-width: 300px) {
+body{
+    background-color: darkslateblue;
+    font-family: calibri;
+    color: white;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+section{
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    color: white;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-size: 13.79px;
+}
+.header{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: space-between;
+    font-family: calibri;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    list-style: none;
+    width: auto;
+    font-family: calibri;
+}
+.list1{
+    margin: 15px;
+}
+.design{
+    margin-top: 18px;
+}
+.button{
+    font-family: calibri;
+    font-weight: 550;
+    background-color: white;
+    border-color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    color: darkslateblue;
+    letter-spacing: 2px;
+}
+.resize2{
+    width: 150px;
+    height: 150px;
+    margin-top: -40px;
+}
+a:link, a:visited, a:hover, a:active{
+    color: white;
+    text-decoration: none;
+}
+.resize{
+    width: 403px;
+    height: 220px;
+}
+.pic{
+    display: flex;
+    padding-top: 5%;
+}
+.yellow{
+    color: rgb(218, 185, 1);
+}
+.pic2{
+    padding-left: 2%;
+    margin-top: -30px;
+}
+p{
+    color: rgb(255, 241, 159);
+}
+.button1{
+    color: white;
+    background-color: darkslateblue;
+    width: 110px;
+    height: 40px;
+    border-color: rgb(218, 185, 1);
+    letter-spacing: 1px;
+    font-family: calibri;
+}
+.picB{
+    padding-left: 2%;
+}
+.img{
+    padding-top: 27px;
+    padding-left: 2%;
+}
+.h1{
+    font-family: calibri;
+}
+.yellow1{
+    color: rgb(218, 185, 1);
+    padding-top: 5%;
+}
+.foot{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.pz{
+    margin-top: 9%;
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body{
+        background-color: darkslateblue;
+        font-family: calibri;
+        color: white;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+    }
+    section{
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        color: white;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+    }
+    .header{
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 50px;
+        justify-content: space-between;
+        font-family: calibri;
+    }
+    .list{
+        display: flex;
+        flex-wrap: wrap;
+        color: white;
+        list-style: none;
+        width: auto;
+        font-family: calibri;
+    }
+    .list1{
+        margin: 15px;
+    }
+    .design{
+        margin-top: 18px;
+    }
+    .button{
+        font-family: calibri;
+        font-weight: 550;
+        background-color: white;
+        border-color: white;
+        border-radius: 10px;
+        width: 100px;
+        height: 40px;
+        color: darkslateblue;
+        letter-spacing: 2px;
+    }
+    .resize2{
+        width: 150px;
+        height: 150px;
+        margin-top: -40px;
+    }
+    a:link, a:visited, a:hover, a:active{
+        color: white;
+        text-decoration: none;
+    }
+    .resize{
+        width: 403px;
+        height: 220px;
+    }
+    .pic{
+        display: flex;
+        padding-top: 5%;
+    }
+    .yellow{
+        color: rgb(218, 185, 1);
+    }
+    .pic2{
+        padding-left: 2%;
+        margin-top: -30px;
+    }
+    p{
+        color: rgb(255, 241, 159);
+    }
+    .button1{
+        color: white;
+        background-color: darkslateblue;
+        width: 110px;
+        height: 40px;
+        border-color: rgb(218, 185, 1);
+        letter-spacing: 1px;
+        font-family: calibri;
+    }
+    .picB{
+        padding-left: 2%;
+    }
+    .img{
+        padding-top: 27px;
+        padding-left: 2%;
+    }
+    .h1{
+        font-family: calibri;
+    }
+    .yellow1{
+        color: rgb(218, 185, 1);
+        padding-top: 5%;
+    }
+    .foot{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+    .pz{
+        margin-top: 9%;
+    }
+}
